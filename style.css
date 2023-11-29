@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+
+body{
+    background-color: white; 
+    box-sizing: border-box;
+}
+
+.logo1 {
+    margin-left: 30px;
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    margin-right: 30px ;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: orange;
+    color: black;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+
+.second-div{
+    background-color: rgb(241, 241, 241);
+    padding: 60px 0px;
+}
+
+h2 {
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+.first {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(61, 60, 60);
+}
+
+span {
+    color: blue;
+}
+
+.mybutton {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.image {
+    float: right;
+    margin-top: -160px;
+}
+
+.coin {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sub-coinfigo {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    color: blue;
+}
+
+.para {
+    color: rgb(78, 76, 76);
+    margin-top: 10px;
+}
+
+.one-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.Best {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.Bestee {
+    color: black;
+}
+
+.f {
+    color: rgb(78, 76, 76);
+}
+
+.parent-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Box {
+    width: 200px;
+    height: 250px;
+    border: 1px solid;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.mark {
+    background-color: blue;
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Black-div {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.experience {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.logo6 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: -50px;
+    margin-left: 5px;
+}
+.black-box {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    margin-top: 20px;
+    padding: 12px 10px;
+    margin-right: 15px;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.side-border {
+    margin-bottom: 10px;
+}
+
+.more {
+    margin-left: 20px;
+}
+
+.things {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: blue;
+}
+
+.mybtn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.bigmore {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    margin-left: 550px;
+}
+
+.parag {
+    width: 400px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid grey; 
+}
+
+.arrow {
+    position: absolute;
+    right: 70px;
+    color: grey;
+}
+
+footer {
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+@media (max-width:700px) {
+    .first{
+        /* width: 50%; */
+    }
+
+    .Box{
+        width: 100px;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 6px;
+        font-size: 10px;
+
+    }
+
+    .mark{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

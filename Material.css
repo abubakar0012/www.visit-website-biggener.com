@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    box-sizing: border-box
+}
+
+.logo1 {
+    margin-left: 30px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(47, 81, 127);
+}
+
+li {
+    display: inline;
+    margin-right: 30px ;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+li a:hover {
+    background-color: orange;
+    color: black;
+    padding: 7px 14px;
+    border-radius: 5px;
+    
+}
+
+.background-div {
+    background-image: linear-gradient(0deg, rgba(47, 81, 127, 0.5), rgba(47, 81, 127, 0.5)), url(assets/images/material4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.second-div {
+    color: white;
+    padding: 200px 0px 300px 40px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.first {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.mybutton {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 7px;
+}
+
+.mybtn {
+    padding: 10px 20px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.head {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.myicon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.box-div {
+    display: flex;
+}
+
+.box1 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(157, 144, 241);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.box2 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(185, 18, 157);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.box3 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(109, 240, 109);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.box4 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(86, 188, 235);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.white-div {
+    padding: 80px;
+    background-color: whitesmoke;
+}
+
+.white {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.para {
+    font-size: 20px;
+    color: gray;
+}
+
+.myicon1 {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.myicon2 {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: rgb(95, 179, 247);
+}
+
+.myicon3 {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.non-border {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    text-align: center;
+}
+
+.best-project {
+    margin: 100px;
+}
+
+.top-heading {
+    text-align: center;
+    /* margin-top: 30px; */
+    margin-bottom: 20px;
+}
+
+.experience {
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 60px;
+}
+
+.number7 {
+    float: left;
+    margin-right: 70px;
+}
+
+.number5 {
+    float: right;
+    
+}
+
+.edu-icon1 {
+    width: 60px;
+    height: 60px;
+    color: rgb(0, 162, 255);
+    float: left;
+    margin-right: 20px;
+}
+
+.edu-icon2 {
+    width: 60px;
+    height: 60px;
+    color: rgb(231, 129, 129);
+    float: left;
+    margin-right: 20px;
+}
+
+.edu-icon3 {
+    width: 60px;
+    height: 60px;
+    color: rgb(51, 7, 163);
+    float: left;
+    margin-right: 20px;
+}
+
+.black-open {
+    padding-bottom: 30px;
+}
+
+.expe {
+    color: grey;
+}
+
+.three-boxes {
+    background-color: blue;
+    padding: 100px 0px;
+}
+
+.pricing {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+span {
+    font-size: 70px;
+}
+
+.five {
+    font-size: 18px;
+    padding: 35px;
+}
+
+h4 {
+    padding-bottom: 15px;
+}
+
+.sub-button {
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.person1 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(0deg, rgba(22, 21, 21, 0.5), rgba(22, 21, 21, 0.5)), url(assets/images/material9.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.person2 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(0deg, rgba(23, 134, 56, 0.5), rgba(23, 134, 56, 0.5)), url(assets/images/material9.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.person3 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(0deg, rgba(134, 58, 23, 0.5), rgba(134, 58, 23, 0.5)), url(assets/images/material9.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.General-person {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px;
+}
+
+.material1 {
+    float: left;
+    margin-right: 10px;
+}
+
+h2, .lead {
+    padding-bottom: 10px;
+}
+.ipsum {
+    padding: 20px 0px;
+}
+
+.twitter, .twit {
+    color: rgb(0, 153, 255);
+    
+}
+
+.nicole {
+    margin-bottom: 50px;
+}
+
+.major-material {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.us {
+    height: 800px;
+    background-image: linear-gradient(0deg, rgba(15, 21, 21, 0.5), rgba(15, 21, 21, 0.5)), url(assets/images/material9.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    position: relative;
+}
+
+form {
+    width: 1000px;
+    height: 450px;
+    background-color: white;
+    /* padding: 70px; */
+    color: black;
+    position: absolute;
+    left: 150px;
+    margin-top: 50px;
+    
+}
+
+input {
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
